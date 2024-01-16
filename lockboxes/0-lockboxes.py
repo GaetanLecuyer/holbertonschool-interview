@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 def can_unlock_all(boxes):
     """
     Détermine si toutes les boîtes peuvent être ouvertes en utilisant les clés présentes dans les boîtes.
@@ -6,8 +9,6 @@ def can_unlock_all(boxes):
     :return: True si toutes les boîtes peuvent être ouvertes, False sinon.
     """
 
-    # Créer une liste pour suivre l'état d'ouverture des boîtes
-    # True signifie que la boîte est ouverte, False signifie qu'elle est fermée
     opened_boxes = [False] * len(boxes)
     
     opened_boxes[0] = True
